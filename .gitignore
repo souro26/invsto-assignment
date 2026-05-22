@@ -219,3 +219,6 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 -e "\n# Project specific\n.env\ndata/raw/\ndata/processed/\nreport/*.pdf" 
+
+# Data
+data/
