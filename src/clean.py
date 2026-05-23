@@ -1,6 +1,8 @@
 import pandas as pd
 import os
-from ingest import TICKERS, ALL_TICKERS
+import sys
+sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
+from src.ingest import TICKERS, ALL_TICKERS
 
 RAW_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "raw")
 PROCESSED_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "processed")
