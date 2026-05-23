@@ -23,7 +23,7 @@ def download_data(tickers = ALL_TICKERS, start = START_DATE, end = END_DATE):
 
     for ticker in tickers:
         print(f"Downloading {ticker} ...")
-        df = yf.download(ticker, start=start, end=end, auto_adjust=True)
+        df = yf.download(ticker, start=start, end=end, auto_adjust=True, multi_level_index=False)
 
         if df.empty:
             print (f"No data available for {ticker}, skipping")
