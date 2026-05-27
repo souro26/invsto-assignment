@@ -8,7 +8,7 @@ I built this as a quant research assignment for Invsto. My aim was to predict ne
 
 Neither ARIMA nor XGBoost beat a naive forecast of predicting zero every day. That is not a failure, but the correct result. Price and volume history alone carries very little signal at a one day horizon. The more interesting finding is in the feature importance. Rolling volatility dominates, meaning the market prices risk more consistently than direction.
 
-![Sector Performance](report/figures/14_sector_performance.png)
+![Model Comparison](report/figures/15_model_comparison.png)
 
 ## Project Structure
 
