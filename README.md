@@ -28,6 +28,7 @@ invsto-assignment/
 │   ├── 03_arima.ipynb
 │   └── 04_xgboost.ipynb
 ├── report/
+│   ├── figures/
 │   ├── report.docx
 │   └── dashboard/invsto_dashboard.pbix
 ├── environment.yml
